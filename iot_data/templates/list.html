@@ -1,0 +1,13 @@
+<html>
+<body>
+    <ul>
+        {% for o in data %}
+        <li>
+            <div>box number: {{ o.box_number }}</div>
+            <div>latitude: {{ o.gps_latitude }}</div>
+            <div>longitude: {{ o.gps_longitude }}</div>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
